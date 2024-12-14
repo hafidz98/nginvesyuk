@@ -1,0 +1,33 @@
+{
+  "news_data": [
+    {
+      "title": "EKONOMI: Naiknya devlasi menggemparka perekonomian negara!",
+      "time": "17:20 21-10-2024",
+      "image": "images/news1.png"
+    },
+    {
+      "title": "OPINI: Dampak Terpilihnya Donal Trump dalam perekonomian dunia",
+      "time": "17:20 03-11-2024",
+      "image": "images/news2.jpg"
+    },
+    {
+      "title": "KRIPTO: Breaking News! Bitcoin melambung tinggi di ujung akhir 2024!",
+      "time": "17:20 09-11-2024",
+      "image": "images/news3.jpeg"
+    },
+    {
+      "title": "SAHAM: Rekomendasi saham yang memberikan dividen terbaik",
+      "time": "17:20 09-11-2024",
+      "image": "images/news4.jpg"
+    },
+    {
+      "title": "EKONOMI: Gagal panen sampai jatuhnya harga barang pokok, Petani tercekik!",
+      "time": "17:20 10-11-2024",
+      "image": "images/news5.jpeg"
+    }
+  ]
+}
+
+
+
+

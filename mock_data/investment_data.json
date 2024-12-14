@@ -1,0 +1,28 @@
+{
+  "invest_data" : [
+    {
+      "stock_code":"BBCA",
+      "stock_name": "Bank BCA",
+      "stock_percent": "+0.34%",
+      "trends": "up"
+    },
+    {
+      "stock_code":"UNVR",
+      "stock_name": "Unilever",
+      "stock_percent": "+0.10%",
+      "trends": "up"
+    },
+    {
+      "stock_code":"ARTO",
+      "stock_name": "Bank Jago",
+      "stock_percent": "-1.11%",
+      "trends": "down"
+    },
+    {
+      "stock_code":"BMRI",
+      "stock_name": "Bank Mandiri",
+      "stock_percent": "+1.02%",
+      "trends": "up"
+    }
+  ]
+}
