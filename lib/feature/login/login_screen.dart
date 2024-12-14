@@ -135,7 +135,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                     Future.delayed(Durations.long1, () {
                                       Navigator.of(context).pushAndRemoveUntil(
                                         MaterialPageRoute(
-                                          builder: (context) => const HomeScreen(),
+                                          builder: (context) =>
+                                              const HomeScreen(),
                                         ),
                                         (route) => false,
                                       );
@@ -170,15 +171,29 @@ class _LoginScreenState extends State<LoginScreen> {
                             style: TextStyle(fontSize: 20, color: Colors.white),
                           ),
                         ),
-                        const Divider(indent: 50, endIndent: 50, height: 36),
-                        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-                          IconButton.outlined(
-                              onPressed: () {},
-                              icon: const FaIcon(
-                                FontAwesomeIcons.google,
-                                color: Colors.red,
-                              )),
-                        ])
+                        Align(
+                          alignment: Alignment.center,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Text('Belum bergabung dengan kami?'),
+                              TextButton(
+                                  onPressed: () {},
+                                  child: const Text('Daftar baru')),
+                            ],
+                          ),
+                        ),
+                        const Divider(indent: 50, endIndent: 50, height: 24),
+                        Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              IconButton.outlined(
+                                  onPressed: () {},
+                                  icon: const FaIcon(
+                                    FontAwesomeIcons.google,
+                                    color: Colors.red,
+                                  )),
+                            ])
                       ],
                     ),
                   ],
